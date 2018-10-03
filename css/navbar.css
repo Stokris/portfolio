@@ -1,0 +1,10 @@
+#navStyle {
+    background: var(--grey) !important; 
+    font-family: var(--font-one), sans-serif;
+    font-size: 125%;
+}
+
+#listStyle {
+    margin-left: 75%;
+}
+
