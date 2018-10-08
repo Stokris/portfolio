@@ -1,0 +1,7 @@
+#linkedIn {
+    overflow: hidden;
+    width: 5%;
+    height: 10%;
+    border: solid 2px rgba(61,59,89);
+    border-radius: 10px;
+}

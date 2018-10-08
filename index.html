@@ -14,22 +14,22 @@
     <!--below is the nav bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navStyle">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="listStyle">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="about">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="projects">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="resume">Resume</a>
             </li>
           </ul>
         </div>
@@ -41,26 +41,34 @@
               <p class="lead">can enter something here....</p>
             </div>
           </div>
+          <br />
+
       <!--projects-->
       <div class ="container">
 
           <div class="row">
               <div class="col-4"></div>
-              <a href="https://codepen.io/kstokes/pen/PdvLrj">Creature</a>
+              <a href="https://codepen.io/kstokes/pen/PdvLrj"><img src="https://cdn.pixabay.com/photo/2013/03/29/13/39/skip-97631_960_720.png" id="firstProject"></a>
               <div class="col-4"></div>
-              <a href="https://stokris.github.io/newTutorial/">JavaScript Tutorial</a>
+              <a href="https://stokris.github.io/newTutorial/"><img src="http://icons.iconarchive.com/icons/icons-land/play-stop-pause/256/Pause-Disabled-icon.png" id="secondProject"></a>
               <div class="col-4"></div>
+              <a href="https://somethinghere/"><img src="https://openclipart.org/image/2400px/svg_to_png/30949/media-skip-forward.png" id="thirdProject"></a>
+            
           </div>
       </div> 
+
+      <br />
+    
       
 <!--about me-->
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <p id="aboutMe">My name is Kristen Stokes. I am looking to </p>
+            <p id="aboutMe">My name is Kristen Stokes. I am a dedicated individual looking to further my knowledge in coding languages, to learn the ins and outs of creating beautiful web pages that are easy to read and maneouver. </p>
         </div>
     </div>
 </div>
+
 
 <!--contact-->
 <div class="contactStyle">
@@ -69,6 +77,7 @@
   <section id="contact">
    <div class="container">
      <h2 class="text-center text-uppercase">Contact Me</h2>
+     <br />
      <div class="row">
        <form action="https://formspree.io/Stokeskristen817@gmail.com" method="POST">
          <div class="control-group">
@@ -127,6 +136,19 @@
    </div>
  </section>
  </div>
+
+ <!--footer-->
+ <footer>
+    <div class="footer" style="border: 6px double rgba(92,78,78); text-align: center; background-color: rgba(76,72,72);">
+    <span>&copy;Kristen Stokes 2018 </span>
+    <br />
+
+    <a href="https://www.linkedin.com/in/kristen-stokes-0813a116b/"><img src="https://cdn.pixabay.com/photo/2017/11/10/05/05/linkedin-2935407_960_720.png" id="linkedIn"></a>
+    </div>
+  </footer>  
+
+
+
 
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
