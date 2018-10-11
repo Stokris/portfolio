@@ -1,5 +1,5 @@
 #jumboStyle {  
-    background: url('https://cdn.pixabay.com/photo/2015/11/25/01/31/abstract-background-1061121_960_720.jpg') no-repeat center;
+    background: url('../assets/abstract-background-1061121_960_720.jpg') no-repeat center;
  background-size: cover;
  color: rgba(223,146,146);
  text-align: center;
