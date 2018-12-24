@@ -4,3 +4,17 @@
     margin-left: 275px;
     margin-top: 110px;
 }
+
+#angular {
+    overflow: hidden;
+    width: 25%;
+    margin-left: 480px;
+    margin-top: -80px;
+}
+
+#node {
+    width: 45%;
+    overflow: hidden;
+    margin-left: 810px;
+    margin-top: -155px;
+}
